@@ -24,21 +24,21 @@ class Navigation extends StatelessWidget {
             leading: Icon(Icons.home),
             title: Text('Home'),
             onTap: () {
-              Get.offNamed("/");
+              Get.toNamed("/");
             },
           ),
           ListTile(
             leading: Icon(Icons.settings),
             title: Text('Settings'),
             onTap: () {
-              Get.offNamed("/settings");
+              Get.toNamed("/settings");
             },
           ),
           ListTile(
             leading: Icon(Icons.settings),
             title: Text('Calendar'),
             onTap: () {
-              Get.offNamed("/calendar");
+              Get.toNamed("/calendar");
             },
           ),
         ],
